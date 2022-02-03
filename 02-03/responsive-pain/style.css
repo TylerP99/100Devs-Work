@@ -1,0 +1,44 @@
+footer,
+header {
+	height: 200px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+section {
+	border: 1px solid black;
+	height: 400px;
+	width: 33.3334%;
+	float: left;
+	box-sizing: border-box;
+}
+section:last-child {
+	float: right;
+}
+
+footer {
+	clear: both;	
+}
+
+@media screen and (max-width: 599px) {
+	section {
+		width: 100%;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+	section {
+		width: 50%;
+	}
+
+	section:first-of-type {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		width: 960px;
+		margin: 0 auto;
+	}
+}
