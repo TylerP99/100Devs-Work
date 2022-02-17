@@ -1,0 +1,138 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* NAVIGATION */
+header {
+  height: 40px;
+  background: black;
+  width: 100%;
+}
+header nav {
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+header a{
+  color: white;
+  border-right: 1px solid white;
+  text-decoration: none;
+  padding: 1% 1.5%;
+  height: 100%;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+header nav a img {
+  padding: none;
+}
+header a:last-child {
+  border-right: none;
+}
+header a:nth-child(2){
+  padding-right: 7%;
+}
+
+
+header + section {
+  width: 70%;
+  margin: 1% auto 0 auto;
+  height: 50px;
+}
+header + section h2{
+  float: left;
+  padding-top: 1.5%;
+}
+header + section > h2:first-child{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+header + section h2+h2{
+  float: right;
+  font-size: 1.3333em;
+}
+main {
+  width: 70%;
+  margin: 0 auto 40px auto;
+  height: 300px;
+  border: 1px solid black;
+}
+main #largeMain{
+  width: 49.5%;
+  height: 100%;
+  float: left;
+  background: gray;
+}
+main #smallList {
+  width: 49.5%;
+  height: 100%;
+  float: right;
+}
+main .smallMain {
+  width: 49.5%;
+  height: 49%;
+  float: left;
+  background: gray;
+}
+.smallMain:nth-child(-n+2){
+  margin-bottom: 1%;
+}
+.smallMain:nth-child(2n) {
+  float: right;
+}
+
+.category {
+  width: 70%;
+  margin: 0 auto 40px auto;
+  height: 300px;
+}
+.category section {
+  width: 33.3333%;
+  height: 100%;
+  float: left;
+}
+.category section:last-child {
+  float: right;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h6 {
+  border-left: red 2px solid;
+  padding-left: 10px;
+}
+.category h6 {
+  margin-bottom: 10px;
+}
+
+.date {
+  color: gray;
+}

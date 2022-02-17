@@ -1,0 +1,116 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body,html  {
+  width: 100%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: #f5f9fc;
+  height: 50px;
+  padding: 1% 1.5%;
+  width: 100%;
+}
+header a{
+  color: #2c4357;
+  text-decoration: none;
+}
+header ul {
+  margin: 0 auto;
+  width: 50%;
+}
+header li {
+  float: left;
+  list-style-type: none;
+  margin: 0 5%;
+}
+header .btn{
+  float: right;
+}
+header a:first-child{
+  float: left;
+}
+
+header + section {
+  background: #f5f9fc;
+  color: #2c4357;
+  padding-top: 4%;
+}
+.catcher {
+  height: 600px;
+  width: 100%;
+}
+.left {
+  float: left;
+  margin: 5% 5%;
+  width: 40%;
+}
+.catcher img {
+  float: right;
+  width: 50%;
+}
+
+.feature-list {
+  width: 90%;
+  margin: 0 auto;
+}
+.feature-list > section {
+  width: 24.25%;
+  margin: 0 auto;
+  float: left;
+  background: #f5f9fc;
+}
+
+.body {
+  width: 90%;
+  clear: both;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.btn{
+  background:#2c4357;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  header ul, header .btn {
+    display: none;
+  }
+  .catcher .left,
+  .catcher img,
+  .feature-list > section {
+    width: 100%;  }
+
+
+}

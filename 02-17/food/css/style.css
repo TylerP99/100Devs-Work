@@ -1,0 +1,234 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  border: 1px solid black;
+  height: 60px;
+  width: 100%;
+}
+header nav {
+  border: 1px solid yellow;
+  float: right;
+  padding: 20px 0;
+  width: 65%;
+}
+header ul {
+  border: 1px solid green;
+  float: right;
+}
+header li {
+  float: left;
+  list-style-type: none;
+}
+header a {
+  color: rgba(0, 0, 0, 0.95);
+  padding: 10px 4em;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+body > section:first-child{
+  background-image: url("../bgr.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  height: 750px;
+}
+main > section {
+
+  float: left;
+  padding: 100px 60px;
+  width: 50%;
+
+}
+main input {
+  height: 3.51em;
+  width: 70%;
+  
+  float: left;
+}
+main div {
+  padding: 3em 0 5em 0;
+}
+main .btn {
+  background: #ff8800;
+  color: white;
+  padding: 1em;
+  float: left;
+  width: 14%;
+}
+main h1 {
+  font-size: 7em;
+}
+
+.about {
+  background-image: url("../bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.about > div {
+
+  float: right;
+
+  padding: 10em;
+
+  width: 40%;
+}
+.about h2 {
+  font-size: 5em;
+}
+.about p {
+  line-height: 2em;
+  padding-bottom: 4em;
+}
+.about .btn2 {
+  background: #ff8800;
+  border-radius: 5%;
+  border-right: none;
+  color: #fff;
+  padding: 1em;
+}
+.about .btn2-arr {
+  background: #ffaa4d;
+  border-radius: 5%;
+  border-left: none;
+  color: #fff;
+  padding: 1em;
+}
+
+.menu {
+  background: #f2f6f7;
+  /* height: 800px; */
+  padding: 6em 2em;
+  text-align: center;
+}
+.menu h2 {
+  font-size: 5em;
+  padding-bottom: 1em;
+}
+.menu ul {
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 6em;
+}
+.menu li {
+  border-bottom: 1px solid rgba(223,226,227,255);
+  float: left;
+  padding: 20px 60px;
+}
+.menu > section {
+  border: 1px solid black;
+  clear: both;
+  height: 40%;
+  margin: 2em auto;
+  width: 80%;
+}
+.menu img {
+  padding: 0 2%;
+  height: 100%;
+  width: 20%;
+}
+
+.contact {
+  background-image: url("../bgt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 1200px;
+  padding: 2em 1em;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 5em;
+}
+.contact img {
+  height: 50%;
+  width: 60%;
+}
+.contact p:first-of-type {
+  padding: 1em 0;
+}
+.contact p:last-of-type {
+  color: #ff8800;
+  padding: 1em 0;
+  font-size: 2em;
+}
+.contact a > img {
+  width: 50px;
+  height: 50px  ;
+}
+.contact .left {
+  float: left;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.contact .right {
+  float: right;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.testimonials {
+  height: 800px;
+  padding: 2em 0;
+  text-align: center;
+}
+.testimonials h2 {
+  font-size: 6em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+.testimonials *{
+  display: block;
+}
+.testimonials img {
+  border-radius: 50%;
+  display: inline;
+  height: 100px;
+  width: 100px;
+  margin: 20px 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+h4 {
+  color: #ff8800;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}

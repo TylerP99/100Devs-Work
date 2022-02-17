@@ -1,0 +1,114 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: #66768a;
+  padding-bottom: 200px;
+  width: 100%;
+}
+header nav{
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  width: 95%;
+}
+header nav a{
+  color: #fff;
+  margin-right: 20px;
+}
+header img {
+  margin: 0 auto;
+}
+header a:nth-child(-n+2) {
+  float: left;
+}
+header .btn {
+  float: right;
+}
+header > section {
+  color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+}
+header img{
+  width: 40px;
+  height: 40px;
+}
+
+.white {
+  background: #fff;
+  margin: 0 auto;
+  padding: 100px 0px;
+  text-align: center;
+  width: 50%;
+}
+
+.gray {
+  background: #dbdfe2;
+  margin: 0 auto;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.split {
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+}
+p {
+  margin-bottom: 50px;
+}
+
+footer {
+  background: #161f2a;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.btn {
+  background: #fff;
+  border-radius: 5%;
+  color: #66768a;
+  padding: 10px;
+
+}
+
+.btn-alt{
+  border: 1px solid black;
+  color: #000;
+  padding: 15px 50px;
+  text-decoration: none;
+}

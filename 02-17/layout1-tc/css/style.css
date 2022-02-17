@@ -1,0 +1,133 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html,body {
+  height: 100%;
+}
+
+body {
+  background: white;
+}
+
+body > * {
+  border: 1px solid black;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+li{
+  padding-left: none;
+}
+
+header {
+  float: left;
+  height: 100%;
+  padding:1.5% 0 0 1.2555%;
+  width: 13.5%;
+}
+header ul {
+  float: left;
+  padding-left: 0;
+  margin: 5% 0;
+  width: 100%;
+}
+header ul li {
+  margin-bottom: 5%;
+}
+header a {
+  text-decoration: none;
+  color: gray;
+  font-size: larger;
+}
+header::after {
+  clear: both;
+}
+
+main{
+  float: left;
+  width: 66.5%;
+}
+main .main{
+  width: 60%;
+  float: left;
+  padding: 2%;
+}
+main aside {
+  width: 40%;
+  float: left;
+}
+main aside li {
+  border-bottom: 1px solid gray;
+}
+main img {
+  height: 70%;
+  width: 100%;
+}
+
+section.content {
+  width: 66.5%;
+  float: left;
+}
+
+section article section {
+  float: left;
+  width: 30%;
+}
+article p {
+  float: left;
+  width: 30%;
+}
+article img {
+  float: right;
+  width: 40%;
+}
+article {
+  float: left;
+}
+
+
+section.sponsered {
+  width: 20%;
+  height: 100%;
+  background: red;
+  float: right;
+}
+
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.tcp-content {
+  color: goldenrod;
+  font-weight: bold;
+}
