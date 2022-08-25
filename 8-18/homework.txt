@@ -1,0 +1,8 @@
+🗓️ ️HOMEWORK DUE (Thursday 08/18):
+Do: Build a MVC lecture
+Watch: https://youtu.be/SBvmnHTQIPY (Node.js App From Scratch | Express, MongoDB & Google OAuth) THIS IS A BEAST just get through it, so all the topics are not brand new next week! 
+Take A Peek: https://github.com/100devs/todo-mvc-auth-local
+
+Submission Instructions:
+⭐ Homework Due Today:
+MVC Lecture - https://forms.gle/YDt3FP4vRw1nD7Qg6

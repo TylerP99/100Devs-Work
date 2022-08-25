@@ -1,0 +1,13 @@
+For Homework: 
+Due Thursday - Jan. 27th
+Do: Finish Simple Site Lab from class-04 (HTML & CSS)
+Read: http://learnlayout.com/
+Do: https://www.typingtest.com/ (Five Minute Test)
+Do: Practice Typing - https://www.keybr.com/
+
+Do: Complete The Three Layouts (last few slides)
+Read: https://learn.shayhowe.com/advanced-html-css/responsive-web-design/
+
+Submission Instructions:
+Place your Three Layouts and Simple Site Lab in separate codepen.io, glitch.com, or replit.com 
+Submit the URLs here: https://forms.gle/rvPhDrbp56DQKgPaA

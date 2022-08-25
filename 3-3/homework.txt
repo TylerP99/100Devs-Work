@@ -1,0 +1,12 @@
+Homework (Due Thursday - Mar. 2nd):
+COMMENT OUT YOUR JS
+TYPE IT ALL OUT AGAIN WITHOUT LOOKING
+PEAK IF YOU HAVE TOO
+REPEAT UNTIL YOU DO NOT HAVE TO PEAK
+DELETE YOUR JS ENTIRELY
+AND DO IT AGAIN
+THEN DO IT AGAIN BUT CHANGE SOMETHING!
+
+Submission Instructions:
+Submit Your Homework:
+Play with any of the JS and make changes? Place your javascript changes in a https://codepen.io/ and submit the URLs here: https://forms.gle/q9qvPkrH5jKgEfxBA

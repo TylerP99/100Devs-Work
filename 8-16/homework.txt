@@ -1,0 +1,6 @@
+🗓️ ️HOMEWORK DUE (Tuesday 08/16):
+Do: Start prepping THE BANK
+Do: Comment The Todolist
+Watch: DevMarketer's MVC video: https://youtu.be/1IsL6g2ixak
+Watch: https://youtu.be/SBvmnHTQIPY (Node.js App From Scratch | Express, MongoDB & Google OAuth) THIS IS A BEAST just get through it, so all the topics are not brand new next week! 
+Take A Peek: https://github.com/100devs/todo-mvc-auth-local

@@ -1,0 +1,11 @@
+Homework (Due Thursday - Apr. 5th):
+🚨 Do: https://aka.ms/learnwithleon (Intro. To Github)
+:this: This link is a great intro to github & part of our sponsored class on Thursday. Also, please use this link, so Microsoft can see how many folx are participating. If you fill out the email submission, you will be entered into an extra raffle for a surface go laptop! 
+
+Want to push?:
+Read and do the tasks: https://javascript.info/ Whole Chapter - Objects: the basics 
+Read: Pillars of OOP - https://medium.com/@hamzzza.ahmed95/four-pillars-of-object-oriented-programming-oop-e8d7822aa219
+Complete and Submit this project: https://github.com/leonnoel/100devs-calculator
+
+Submission Instructions:
+None

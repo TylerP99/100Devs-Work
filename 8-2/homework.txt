@@ -1,0 +1,10 @@
+🗓️ ️HOMEWORK DUE (Tuesday 08/02):
+Create: Heroku, Mongo Atlas, and Postman Accounts
+Read: Node.js and Express (Fullstack Open) - https://fullstackopen.com/en/part3/node_js_and_express
+Read: https://zellwk.com/blog/crud-express-mongodb
+Do:  Your Own CRUD APP & Push To Heroku (assigned before break)
+Do: Finish Commenting The Todolist Code
+
+⭐ HOMEWORK SUBMISSION (Today): 
+Do: Make Your Own APP and Push To Heroku (from over break)
+Submit here please: https://github.com/100devs/simple-express-app-submission
